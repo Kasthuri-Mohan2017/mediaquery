@@ -1,0 +1,105 @@
+.mobile-image{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mobile-container{
+
+	font-size: large;
+	background-color: azure;
+}
+/*extra small screen*/
+@media (min-width:475px){
+
+	.mobile-image{
+		height: 50%;
+		width: 50%;
+		
+	}
+	.mobile-container{
+	
+		font-size: small;
+		background-color: rgb(163, 54, 83);
+	}
+
+}
+/* 1,4 small screen*/
+@media (min-width:640px){
+	.mobile-image{
+		height: 60%;
+		width: 60%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.mobile-container{
+	
+		font-size: small;
+		background-color: rgb(167, 93, 33);
+	}
+}
+/*1,4 medium screen*/
+@media (min-width:768px){
+	.mobile-image{
+		height: 70%;
+		width: 70%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.mobile-container{
+	
+		font-size: large;
+		background-color: rgb(21, 211, 37);
+	}
+}
+/*large  screen*/
+@media (min-width:1024px){
+	.mobile-image{
+		height:80%;
+		width: 80%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.mobile-container{
+	
+		font-size: large;
+		background-color: rgb(65, 218, 134);
+	}
+	
+}
+/*extra large screen*/
+@media (min-width:1280px){
+	.mobile-image{
+		height: 90%;
+		width: 90%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.mobile-container{
+	
+		font-size: large;
+		background-color: rgb(55, 224, 224);
+	}
+	
+}
+/* 2xl extra extra large screen*/
+@media (min-width:1536px){
+	.mobile-image{
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.mobile-container{
+	
+		font-size: large;
+		background-color: rgb(60, 76, 214);
+	}
+	
+}
